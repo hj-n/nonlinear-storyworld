@@ -1,5 +1,3 @@
-
-
 class ManageData {
   constructor(data) {
     this.data = data;

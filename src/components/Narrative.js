@@ -37,7 +37,7 @@ const Narrative = (props) => {
                         .enter()
                         .append("g")
                         .attr("class", "storyline")
-                        .attr("transform", (_, i) => `translate(0, ${3 * i})`)
+                        .attr("transform", (_, i) => `translate(0, ${2 * i})`)
                         .style("stroke", (_, i) => color(i))
                         .style("opacity", 0.5)
                         .style("stroke-width", props.stroke)
